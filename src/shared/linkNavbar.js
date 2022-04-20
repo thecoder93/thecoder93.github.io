@@ -1,4 +1,4 @@
-const iconTwitter =  `<svg aria-hidden="true"
+let IconTwitter = () =>  `<svg aria-hidden="true"
 focusable="false"
 data-prefix="fab"
   data-icon="twitter"
@@ -67,17 +67,17 @@ export let link = [
 export let linkSocial = [
     {
         title: 'Twitter',
-        url: '',
-        svg: iconTwitter
+        url: 'https://twitter.com/thecoder93',
+        svg: IconTwitter()
     },
     {
         title: 'Linkedin',
-        url: '',
+        url: 'https://www.linkedin.com/in/gianluca-la-manna-4b208425/',
         svg: IconLinkedin()
     },
     {
         title: 'Github',
-        url: '',
+        url: 'https://github.com/thecoder93',
         svg: IconGithub()
     }
 ]
