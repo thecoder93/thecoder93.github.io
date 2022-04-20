@@ -19,5 +19,5 @@ jobs:
       - name: Deploy to Github Pages
         uses: JamesIves/github-pages-deploy-action@v4.3.0
         with:
-          branchs: gh-pages
+          branch: gh-pages
           folder: dist
