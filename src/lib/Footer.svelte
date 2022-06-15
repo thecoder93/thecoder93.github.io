@@ -4,7 +4,7 @@ import { linkSocial } from "../shared/linkNavbar";
 
 </script>
 <footer class="text-center bg-gray-900 text-white">
-    <div class="container px-6 pt-6">
+    <div class="container px-6 pt-6 m-auto ">
       <div class="flex justify-center mb-6">
         {#each linkSocial as item}
       
