@@ -13,10 +13,8 @@ import { linkSocial } from "../shared/linkNavbar";
         </a>
         {/each}
       </div>
-  
 
-    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.2);">
-      © 2021 Copyright:
-      <a class="text-white" href="https://tailwind-elements.com/">Tailwind Elements</a>
+    <div class="text-center p-4 bg-black">
+      © 2022 Gianluca La Manna
     </div>
   </footer>
