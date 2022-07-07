@@ -12,15 +12,7 @@ import { link } from './shared/linkNavbar';
 <Router>
   <Navbar/>
   <Route path="/">
-    <!-- <div class="w-full relative">
-      <div class="w-full h-full flex flex-col absolute top-0 left-0 justify-center items-center">
-        <div class="text-6xl font-bold text-white">Home</div>
-        <div class="text-2xl text-white">Sottotitolo</div>
-      </div>
-      <img src="src\assets\images\hero-image.jpg" alt="Image alt text" />
-    </div>  -->
     <Hero/>
-
   </Route>
   {#each link as item}
   <Route path={item.path}>
