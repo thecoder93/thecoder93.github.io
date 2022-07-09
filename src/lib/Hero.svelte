@@ -11,6 +11,6 @@ import Avatar from "./Avatar.svelte";
       <div class="text-md text-white mt-2"> from Sicily with ♥ </div>
 
     </div>
-    <img src="/src/assets/images/hero-image.jpg" alt="Tramonto sul mare della Sicilia" />
+    <img src="src/assets/images/hero-image.jpg" alt="Tramonto sul mare della Sicilia" />
     
   </div> 
